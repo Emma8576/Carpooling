@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.carpooling.carpooling"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.carpooling.carpooling"
