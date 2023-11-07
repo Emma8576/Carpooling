@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Carpooling</string>
+    <string name="string_user">Usuario</string>
+    <string name="string_pass">Contraseña</string>
+    <string name="button_pass">Ingresar</string>
 </resources>
