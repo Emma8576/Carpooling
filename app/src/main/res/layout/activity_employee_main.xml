@@ -79,6 +79,7 @@
         android:ems="10"
         android:inputType="numberPassword" />
 
+
     <Button
         android:id="@+id/InicioSesion"
         android:layout_width="match_parent"
@@ -87,11 +88,10 @@
         android:layout_marginRight="30dp"
         android:layout_marginBottom="25dp"
         android:layout_weight="9"
-        android:background="#ffff"
+        android:background="@drawable/style"
         android:backgroundTintMode="add"
         android:text="@string/button_iniciar_sesion"
-        android:textColor="#000000" />
-
+        android:textColor="@color/colorBlack" />
 
     <TextView
         android:id="@+id/textView"
