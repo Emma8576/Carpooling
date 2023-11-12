@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#87CEEB"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -16,6 +17,21 @@
         />
 
     <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center|center_vertical|fill_vertical"
+        android:inputType="text"
+        android:textSize="28sp"
+        android:singleLine="false"
+        android:text="@string/iniciar_sesion"
+        android:textColor="#000000"
+        />
+
+    <EditText
         android:id="@+id/editTextUser"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -26,7 +42,12 @@
         android:background="@drawable/style"
         android:ems="10"
         android:inputType="text"
-        android:text="@string/string_user" />
+        android:hint="@string/string_user"
+        android:textColorHint="#808080"
+        android:textColor="#000000"
+
+    />
+
 
     <EditText
         android:id="@+id/editTextPass"
@@ -40,17 +61,23 @@
         android:ems="10"
         android:hint="@string/string_pass"
         android:inputType="textPassword"
+        android:textColorHint="#808080"
+        android:textColor="#000000"
         />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/InicioSesion"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="25dp"
         android:layout_weight="9"
-        android:background="@color/colorBlack"
-        android:text="Button"
+        android:background="#ffff"
+        android:backgroundTintMode="add"
+        android:text="@string/button_iniciar_sesion"
+        android:textColor="#000000" />
 
-        />
 
     <TextView
         android:id="@+id/textView"

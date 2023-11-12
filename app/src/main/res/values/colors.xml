@@ -3,4 +3,5 @@
     <color name="colorPrimary">#RRGGBB</color>
     <color name="colorWhite">#ffffff</color>
     <color name="colorBlack">#000000</color>
+    <color name="miColor">#6B8E23</color>
 </resources>
