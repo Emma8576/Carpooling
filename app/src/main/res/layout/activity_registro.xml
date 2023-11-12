@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEEB"
+    android:orientation="vertical"
+    tools:context=".Registro">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        app:srcCompat="@drawable/carrito" />
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center|center_vertical|fill_vertical"
+        android:inputType="text"
+        android:singleLine="false"
+        android:text="@string/registro"
+        android:textColor="#000000"
+        android:textSize="28sp" />
+
+
+    <EditText
+        android:id="@+id/editTextUser"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="9"
+        android:background="@drawable/style"
+        android:ems="10"
+        android:hint="@string/string_user"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHint="#808080"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextPass"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="9"
+        android:background="@drawable/style"
+        android:ems="10"
+        android:hint="@string/string_pass"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#808080" />
+
+    <TextView
+        android:id="@+id/Correo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="9"
+        android:background="@drawable/style"
+        android:ems="10"
+        android:hint="@string/correo"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHint="#808080"
+        tools:ignore="TextViewEdits" />
+
+    <EditText
+        android:id="@+id/editCarnet"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="9"
+        android:background="@drawable/style"
+        android:ems="10"
+        android:hint="@string/carnet"
+        android:inputType="numberPassword"
+        android:textColorHint="#808080" />
+
+
+    <Button
+        android:id="@+id/InicioSesion"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="9"
+        android:background="@drawable/style"
+        android:backgroundTintMode="add"
+        android:text="@string/button_registro"
+        android:textColor="@color/colorWhite" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="horizontal"></LinearLayout>
+</LinearLayout>
