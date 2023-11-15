@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DriverAplication</string>
+    <string name="title_activity_driver_log_in">DriverLogIn</string>
 </resources>

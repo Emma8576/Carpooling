@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "Carpooling"
 include(":app")
 include(":driveraplication")
+include(":server")

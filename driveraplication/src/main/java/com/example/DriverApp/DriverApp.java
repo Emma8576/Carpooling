@@ -1,5 +1,6 @@
 package com.example.DriverApp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -30,7 +31,8 @@ public class DriverApp extends AppCompatActivity {
         btnRegistrarse.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(DriverApp.this, "Registrarse", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(DriverApp.this, DriverRegister.class);
+                startActivity(intent);
             }
         });
 
