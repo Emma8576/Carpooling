@@ -22,6 +22,9 @@
             android:name="EmployeeApp.EmployeeMainActivity"
             android:exported="false" />
         <activity
+            android:name="DriverApp.UserManager"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
 
